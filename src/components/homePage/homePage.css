@@ -1,0 +1,46 @@
+.homePage {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #16171d;
+    padding: 5.2rem 0rem 1.7rem 10rem;
+}
+.homePage-header{
+    display:flex;
+    flex-flow: column nowrap;
+    gap:1rem;
+    width:30rem;
+}
+.homePage-title{
+    flex-grow: 0;
+    width: 482px;
+    height: 128px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 44px;
+    line-height: 1.45;
+    font-family: Poppins;
+    letter-spacing: normal;
+    text-align: left;
+}
+.homePage-description{
+    flex-grow: 0;
+    margin-bottom: 3.5rem;
+    width: 311px;
+    height: 24px;
+    color: #787a8d;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Poppins;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+
+

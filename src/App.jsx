@@ -1,20 +1,17 @@
-import { useState } from 'react'
 import './App.css'
-import NavBar  from './Components/navBar'
+import NavBar  from './components/navBar/navBar.jsx'
+import HomePage from './components/homePage/homePage.jsx';
+import Options from './components/options/option.jsx';
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+const  App=() =>(
     <>
     <NavBar />
+    <HomePage />
+    <Options/>
     <div>
-    <h1>Estefanía :D</h1>
+      <h1>Hi</h1>
     </div>
-      
-      
     </>
   )
-}
 
 export default App

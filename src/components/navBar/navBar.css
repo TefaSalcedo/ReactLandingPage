@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #16171d;
+  padding: 1.75rem 10.9rem 1.75rem 9.4rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin: 0 46px 5px 0;
+  padding: 0 10px;
+  width: 174px;
+  height: 52px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-size: 32px;
+  line-height: 1.63;
+  font-family: Poppins;
+  letter-spacing: normal;
+  text-align: center;
+}
+.navbar-Cript {
+  color: #f5c249;
+}
+
+.navbar-items {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-item {
+  flex-grow: 0;
+  padding: 0 2rem;
+  width: 63px;
+  height: 24px;
+  color: #a7aebf;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Poppins;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.navbar-item:hover {
+  color: orangered;
+  /* height: 100%; */
+}
+
+.navbar-contact {
+  margin: 1px 0 0 429px;
+  padding: 12px 20px;
+  width: 203px;
+  height: 56px;
+  font-size: 16px;
+}
