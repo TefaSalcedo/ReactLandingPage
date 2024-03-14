@@ -16,7 +16,7 @@ const NavBar = () => {
           <li className="navbar-item">Products</li>
         </ul>
       </div>
-      <Boton title="Connect Wallet"/>
+      <Boton title="Connect Wallet" size="230px" />
     </nav>
   );
 };

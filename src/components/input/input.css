@@ -1,0 +1,18 @@
+.input-form {
+  flex-grow: 0;
+  cursor:pointer;
+  border: none;
+  border-radius: 12px;
+  background-color: #16171d;
+  padding: 16px 0 16px 17.6px;
+  width: 352px;
+  height: 56px;
+  color: #787a8d;
+  font: normal normal normal 16px/1.5 Poppins;
+  text-align: left;
+}
+
+.input-form:hover,
+.input-form:active {
+  border: solid 2px rgba(129, 129, 129, 0.4);
+}
