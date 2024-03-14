@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  margin-top: 13rem;
+  border-top: 2px solid #787a8d;
+  color: #787a8d;
+}
+.footer-center {
+  display: flex;
+  align-items: center;
+  gap:24px;
+}
+
+.footer-right {
+  text-align: right;
+}
+
+.footer-icon {
+  margin-left: 10px;
+}
+.footer-logo {
+    margin: 0 46px 5px 0;
+    padding: 0 10px;
+    width: 174px;
+    height: 52px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-stretch: normal;
+    font-size: 32px;
+    line-height: 1.63;
+    font-family: Poppins;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  .footer-Cript {
+    color: #f5c249;
+  }

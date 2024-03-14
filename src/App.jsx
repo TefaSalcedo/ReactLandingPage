@@ -4,6 +4,7 @@ import HomePage from './components/homePage/homePage.jsx';
 import Options from './components/options/option.jsx';
 import Formulario from './components/send/send.jsx';
 import Transaction from './components/transactions/transactions.jsx';
+import Footer from './components/zFooter/footer.jsx';
 
 const  App=() =>(
     <>
@@ -12,6 +13,7 @@ const  App=() =>(
     <Options/>
     <Formulario/>
     <Transaction/>
+    <Footer/>
     </>
   )
 
