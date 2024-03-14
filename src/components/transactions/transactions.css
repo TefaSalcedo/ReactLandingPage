@@ -1,0 +1,81 @@
+.content-transactions {
+  padding-top:10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.transaction-title {
+  width:1020px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-weight: bold;
+  font-stretch: normal;
+  font-stretch: normal;
+  font-size: 44px;
+  line-height: 1.45;
+  font-family: Poppins;
+  letter-spacing: normal;
+  text-align: left;
+}
+.Grid-gifs {
+  grid-gap: 60px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin: 16px 211px 10px 209px;
+}
+
+
+.Transactions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 12px;
+  background-color: #21242d;
+  padding: 15px;
+  color: white;
+}
+.Image-container {
+  justify-content: center;
+  align-self: center;
+  width: 270px;
+}
+.Image-container img {
+  border-radius: 8px;
+  width: 250px;
+  height: 200px;
+}
+.Date-container {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  z-index: 2;
+  margin-top: 178px;
+  border-radius: 4px;
+  background-color: #f5c249;
+  width: 147px;
+  height: 34px;
+}
+.Text-container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  text-align: left;
+}
+
+
+.Receive-cont {
+  display: flex;
+  flex-direction: row;
+}
+.Aa {
+  color: #787a8d;
+}
+.Bb {
+  color: #fff;
+}
+
