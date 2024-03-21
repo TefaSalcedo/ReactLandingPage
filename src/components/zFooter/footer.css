@@ -1,17 +1,17 @@
-.footer {
+.footer, .footer-center {
   display: flex;
+  align-items: center;
+}
+.footer {
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  padding: 28px;
-  margin-top: 13rem;
+  margin-top: 5rem;
   border-top: 2px solid #787a8d;
+  padding: 2rem;
   color: #787a8d;
 }
 .footer-center {
-  display: flex;
-  align-items: center;
-  gap:24px;
+  gap:2rem;
 }
 
 .footer-right {
@@ -22,10 +22,7 @@
   margin-left: 10px;
 }
 .footer-logo {
-    margin: 0 46px 5px 0;
-    padding: 0 10px;
-    width: 174px;
-    height: 52px;
+    padding: 0 1rem;
     color: #ffffff;
     font-style: normal;
     font-weight: 600;
@@ -39,3 +36,29 @@
   .footer-Cript {
     color: #f5c249;
   }
+  @media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 0;
+    gap:0.5rem;
+  }
+  .footer-logo{
+    margin:0;
+    padding: 0;
+    width:100%;
+    height: 40px;
+    font-size: 24px;
+  }
+  .footer-right{
+    font-size: 14px;
+  }
+  .footer-center{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+
+}

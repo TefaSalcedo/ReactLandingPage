@@ -1,11 +1,9 @@
 .content-transactions {
-  padding-top:10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  padding-top:5rem;
 }
-
 .transaction-title {
   width:1020px;
   color: #fff;
@@ -25,10 +23,8 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(3, 1fr);
-  margin: 16px 211px 10px 209px;
+  /* margin: 16px 211px 10px 209px; */
 }
-
-
 .Transactions-container {
   display: flex;
   flex-direction: column;
@@ -66,8 +62,6 @@
   width: 250px;
   text-align: left;
 }
-
-
 .Receive-cont {
   display: flex;
   flex-direction: row;
@@ -79,3 +73,22 @@
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  .Grid-gifs {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .transaction-title{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 33px;
+  }
+  .Date-container{
+    position: relative;
+    top:-3rem;
+    margin:0;
+    z-index:1;
+  }
+}
