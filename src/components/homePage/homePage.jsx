@@ -14,7 +14,9 @@ const HomePage = () => {
         <span className="homePage-description">
           Join the world largest crypto exchange
         </span>
-        <Boton title="Connect Wallet" size="230px" />
+        <div className="homePage-boton">
+          <Boton title="Connect Wallet" size="230px" />
+        </div>
       </div>
       <span className="homePage-img">
         <img src={imagenHomePage} alt="imagen decorativa"></img>
