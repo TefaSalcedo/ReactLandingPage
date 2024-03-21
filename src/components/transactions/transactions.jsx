@@ -12,10 +12,8 @@ const Transaction = () => {
       const checkScreenSize = () => {
         setIsScreenSmall(window.innerWidth <= 768);
       };
-  
       // Agrega el listener
       window.addEventListener('resize', checkScreenSize);
-  
       // Elimina el listener cuando el componente se desmonta
       return () => window.removeEventListener('resize', checkScreenSize);
     }, []);
